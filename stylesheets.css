@@ -49,8 +49,9 @@ header{
 }
 
 .logo{
-  transform: translate(25em,56em);
-  position; relative;
+  position: relative;
+  top: 60em;
+  left: 25em;
 
 }
 
