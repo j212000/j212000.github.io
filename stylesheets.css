@@ -19,7 +19,7 @@ header{
   -webkit-background-size:cover;
   background-size: cover;
   background-position: center center;
-  position: static;
+  position: relative;
 }
 
 
@@ -50,7 +50,7 @@ header{
 
 .logo{
   transform: translate(25em,56em);
-  position; absolute;
+  position; relative;
 
 }
 
