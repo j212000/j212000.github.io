@@ -49,9 +49,11 @@ header{
 }
 
 .logo{
-  transform: translate(400%,315%);
+  transform: translate(280%,1150%);
   height: 10%;
   width: 10%;
+  margin: 0;
+  position: absolute;
 
 }
 
@@ -90,51 +92,55 @@ header{
 .intro{
   color: #fff;
   font-size: 11px;
-  transform: translate(40%,30%);
+  transform: translate(25%,30%);
   position: absolute;
   letter-spacing: 2px;
+  margin: 0;
 }
 
 .secondIntro{
   color: #fff;
   font-size: 11px;
-  transform: translate(15%,10%);
+  transform: translate(43%,10%);
   position: absolute;
   letter-spacing: 2px;
 }
 
 .bigHeader{
-  color: #fff;
+  color: #BF6547;
   font-size: 15px;
-  transform: translate(25%,1100%);
+  transform: translate(57%,1200%);
   position: absolute;
   letter-spacing: 4px;
+  margin: 0;
 
 }
 
 .header1{
     color: #fff;
     font-size: 12px;
-    transform: translate(3%,1700%);
+    transform: translate(25%,1700%);
     position: absolute;
     letter-spacing: 2px;
+    margin; 0;
 
 
 
 }
 .question1{
   color: #BF6547;
-  transform: translate(153%,600%);
+  transform: translate(220%,600%);
   position: absolute;
   letter-spacing: 4px;
   font-size: 18px;
+  margin: 0;
 }
 
 
 .header2{
   color: #fff;
   font-size: 16px;
-  transform: translate(3.2%,2400%);
+  transform: translate(30%,2400%);
   position: absolute;
   letter-spacing: 2px;
 
@@ -142,68 +148,75 @@ header{
 
 .question2{
   color: #BF6547;
-  transform: translate(188%,3300%);
+  transform: translate(285%,3300%);
   position: absolute;
   letter-spacing: 4px;
   font-size: 18px;
+  margin: 0;
 }
 
 .header3{
   color: #fff;
   font-size: 20px;
-  transform: translate(2.7%,3200%);
+  transform: translate(25%,3200%);
   position: absolute;
   letter-spacing: 2px;
+  margin: 0;
 }
 
 .question3{
   color: #BF6547;
-  transform: translate(80%,580%);
+  transform: translate(115%,580%);
   position: absolute;
   letter-spacing: 4px;
   font-size: 18px;
+  margin: 0;
 }
 
 .header4{
   color: #fff;
   font-size: 22px;
-  transform: translate(15%,4250%);
+  transform: translate(40%,4250%);
   position: absolute;
   letter-spacing: 2px;
+  margin: 0;
 
 }
 
 .question4{
   color: #BF6547;
-  transform: translate(5%,2600%);
+  transform: translate(14%,5250%);
   position: absolute;
   letter-spacing: 4px;
   font-size: 18px;
+  margin: 0;
 }
 
 .header5{
   color: #fff;
   font-size: 27px;
-  transform: translate(18%,5250%);
+  transform: translate(45%,5250%);
   position: absolute;
   letter-spacing: 2px;
+  margin: 0;
 }
 
 .question5{
   color: #BF6547;
-  transform: translate(157%,4250%);
+  transform: translate(245%,4250%);
   position: absolute;
   letter-spacing: 4px;
   font-size: 18px;
-
+  margin 0;
 }
 
 .header6{
   color: #fff;
   font-size: 23px;
-  transform: translate(25%,4730%);
+  transform: translate(58%,4730%);
   position: absolute;
   letter-spacing: 2px;
+  margin: 0;
 }
 
 .question6{
@@ -212,6 +225,7 @@ header{
   position: absolute;
   letter-spacing: 4px;
   font-size: 18px;
+  margin: 0;
 }
 
 
@@ -222,12 +236,14 @@ header{
   transform: translate(13%,100%);
   position: absolute;
   letter-spacing: 2px;
+  margin 0;
 }
 
 
 
 .commentBox{
   transform: translate(-13%,0%);
+  margin:0;
 
 }
 
@@ -238,6 +254,7 @@ header{
   text-decoration: none;
   transition: 0.6s ease;
   transform: translate(42%,0%);
+
 }
 
 .btn1:hover{
@@ -249,3 +266,4 @@ header{
   color: #fff;
   font-family: Snell Roundhand, cursive;
   transform: translate(3%, 200%);
+  margin:0;
