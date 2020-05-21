@@ -50,7 +50,7 @@ header{
 
 .logo{
   transform: translate(25em,56em);
-  position; static;
+  position; absolute;
 
 }
 
