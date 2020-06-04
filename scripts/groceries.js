@@ -4,7 +4,7 @@
 
 var products = [
 	{
-		name: "potatoes - $0.99",
+		name: "Vegetable: Potatoes - $0.99",
 		vegetarian: true,
 		glutenFree: true,
 		vegAndGlutenFree: true,
@@ -12,7 +12,7 @@ var products = [
 		price: 0.99
 	},
 	{
-		name: "brocoli - $1.99",
+		name: "Vegetable: Brocoli - $1.99",
 		vegetarian: true,
 		glutenFree: true,
 		vegAndGlutenFree: true,
@@ -20,14 +20,14 @@ var products = [
 		price: 1.99
 	},
 	{
-		name: "bread - $2.35",
+		name: "Bakery: Bread - $2.35",
 		vegetarian: true,
 		glutenFree: false,
 		organic: false,
 		price: 2.35
 	},
 	{
-		name: "corn - $2.35",
+		name: "Vegetable: Corn - $2.35",
 		vegetarian: true,
 		glutenFree: true,
 		vegAndGlutenFree: true,
@@ -35,14 +35,14 @@ var products = [
 		price: 2.35
 	},
 	{
-		name: "tortilla - $2.50",
+		name: "Bakery: Tortilla - $2.50",
 		vegetarian: true,
 		glutenFree: false,
 		organic: false,
 		price: 2.50
 	},
 	{
-		name: "egg - $3.18",
+		name: "Other: Egg - $3.18",
 		vegetarian: true,
 		glutenFree: true,
 		vegAndGlutenFree: true,
@@ -50,27 +50,36 @@ var products = [
 		price: 3.18
 	},
 	{
-		name: "ham - $3.25",
+		name: "Meat: Ham - $3.25",
 		vegetarian: false,
 		glutenFree: false,
 		organic:true,
 		price: 3.25
 	},
 	{
-		name: "salmon - $10.00",
+		name: "Meat: Salmon - $10.00",
 		vegetarian: false,
 		glutenFree: true,
 		organic: true,
 		price: 10.00
 	},
 	{
-		name: "milk - $12.00",
+		name: "Diary: Milk - $12.00",
 		vegetarian: true,
 		glutenFree: true,
 		vegAndGlutenFree: true,
 		organic:false,
 		price: 12.00
 	},
+
+	{
+		name: "Other: Beer - $15.00",
+		vegetarian: true,
+		glutenFree: false,
+		organic:false,
+		price: 15.00
+	},
+
 
 
 ];

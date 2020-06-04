@@ -17,41 +17,182 @@
 
 </div>
 <!-- Tab links, each one with an onclick event associated with it -->
-<div class="tab">
-  <button class="tablinks" onclick="openInfo(event, 'Client')">Client</button>
-  <button class="tablinks" onclick="openInfo(event, 'Products')">Products</button>
-  <button class="tablinks" onclick="openInfo(event, 'Cart')">Cart</button>
+<div class="dropdown">
+	<button class="dropbtn">Store Menu</button>
+	<div class="dropdown-content">
+  <a href="tablinks" onclick="openInfo(event, 'Client')">Customer Information</a>
+  <a href="tablinks" onclick="openInfo(event, 'Products')">Items Avaliable</a>
+  <a href="tablinks" onclick="openInfo(event, 'Cart')">Checkout</a>
+</div>
 </div>
 
 <!-- Tab content -->
 <div id="Client" class="tabcontent">
-  <h3>Client Information</h3><br>
-  <p>Tell us a bit about you.</p><br>
+  <h3>CUSTOMER INFORMATION</h3><br>
+	<p>Enter Name</p>
+	<div class="namebox">
+		<input class="w3-input w3-animate-input" type="text" style="width:20%">
+	</div>
+	<br>
+	<div class="Category">
 	Choose a Category:
-	<select id="dietSelect" name="dietSelect" onchange="populateListProductChoices(this.id, 'displayProduct')">
-	<option value=""></option>
+</div>
+<form>
+	<select id="dietSelect" name="dietSelect" onchange="populateListProductChoices(this.id, 'displayProduct')" size="5">
 	<option value="Vegetarian">Vegetarian</option>
-    <option value="GlutenFree">GlutenFree</option>
-		<option value="Vegetarian and GlutenFree">Vegetarian and GlutenFree</option>
+    <option value="GlutenFree">Gluten Intolerant</option>
+		<option value="Vegetarian and GlutenFree">Vegetarian and Gluten Intolerant</option>
 		<option value="Organic">Organic</option>
     <option value="None">None</option>
 	</select>
+</form>
 </div>
 
+
 <div id="Products" class="tabcontent">
-  <h3>Your targeted products</h3><br>
-  <p>We preselected products based on your restrictions.</p><br>
-	 <p>Choose items to buy:<p><br>
+  <h3>PRODUCTS BEST SUITED FOR YOU</h3><br>
 	 <div id="displayProduct"></div>
+	 <br>
 	 <button id="addCart" type="button" class="block" onclick="selectedItems()">
 	 	Add selected items to cart.
-	</button>
+	</button><br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="pheader">
+	 <p>PRODCUTS ON THE SHELF<p>
+</div>
+	<table width="500" border="1" cellpadding="5">
+
+<tr>
+
+<td align="center" valign="center">
+<img src="https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/02/raw-potatoes-potato-1296x728-header.jpg?w=1155&h=1528" height="200" style="position:relative; left: 0px; top: -10px" width="220" alt="description here" />
+<br />
+Potatoes<br>
+<br>
+Vegetarian: Yes<br>
+Gluteen Free: Yes <br>
+Produce: Yes <br>
+
+</td>
+
+<td align="center" valign="center">
+<img src="https://healthynibblesandbits.com/wp-content/uploads/2019/12/Milk-Bread-FF2-735x735.jpg" height="200" style="position:relative; left: 0px; top: 9px" width="220"  alt="description here" />
+<br />
+
+<br>Bread </br>
+<br>
+Vegetarian: Yes <br>
+Gluteen Free: No<br>
+Produce: No <br>
+<br>
+</td>
+
+<td align="center" valign="center">
+<img src="https://www.chatelaine.com/wp-content/uploads/2009/06/jamie-oliver-broccoli-salad-square.jpg" height="200" style="position:relative; left: 0px; top: 5px" width="220"  alt="description here" />
+<br />
+<br>
+Broccoli<br>
+<br>
+Vegetarian: Yes <br>
+Gluteen Free: Yes <br>
+Produce: Yes <br>
+
+</td>
+
+<td align="center" valign="center">
+<img src="https://www.byrdie.com/thmb/wvXuovxi0v8zaaSdVwvaJsUaFzk=/2121x1193/smart/filters:no_upscale()/GettyImages-973555096-48e0c37195a7424282c7c3dc43ac6197-7960cd251dd24d2c844f9efd13be797f.jpg" height="200" style="position:relative; left: 0px; top: 5px" width="220"  alt="description here" />
+<br />
+<br>
+Corn<br>
+<br>
+Vegetarian: Yes<br>
+Gluten Free: Yes<br>
+Produce: Yes<br>
+</td>
+
+<td align="center" valign="center">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQzwf_2htOuCnDePktZjx2OLN2tkzCQln9UIhGkgMTSnMiBsolp&usqp=CAU" height="200" style="position:relative; left: 0px; top: 5px" width="220"  alt="description here" />
+<br />
+<br>
+Flour Tortillas<br>
+<br>
+Vegetarian: Yes <br>
+Gluteen Free: No <br>
+Produce: No <br>
+
+</td>
+
+<td align="center" valign="center">
+<img src="https://i0.wp.com/cdn-prod.medicalnewstoday.com/content/images/articles/283/283659/a-basket-of-eggs.jpg?w=1155&h=1541" height="200" style="position:relative; left: 0px; top: 5px" width="220"  alt="description here" />
+<br />
+<br>
+Egg<br>
+<br>
+Vegetarian: Yes<br>
+Gluten Free: Yes<br>
+Produce: Yes<br>
+</td>
+
+</tr>
+</tr>
+<td align="center" valign="center">
+<img src="https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/ham-crackling.jpg" height="200" style="position:relative; left: 0px; top: 5px" width="220"  alt="description here" />
+<br />
+<br>
+Ham<br>
+<br>
+Vegetarian: No <br>
+Gluteen Free: No <br>
+Produce: Yes <br>
+
+</td>
+
+<td align="center" valign="center">
+<img src="https://www.inspiredtaste.net/wp-content/uploads/2018/10/Brown-Suguar-Spice-Rub-Baked-Salmon-Recipe-3-1200.jpg" height="200" style="position:relative; left: 0px; top: 5px" width="220"  alt="description here" />
+<br />
+<br>
+Salmon<br>
+<br>
+Vegetarian: No<br>
+Gluten Free: Yes<br>
+Produce: Yes<br>
+</td>
+
+<td align="center" valign="center">
+<img src="https://cdn.shopify.com/s/files/1/1058/4790/products/image_85c44d51-b9ec-4ec8-8e37-ff130e687c03_1024x1024.jpg?v=1586093202" height="200" style="position:relative; left: 0px; top: 5px" width="220"  alt="description here" />
+<br />
+<br>
+Milk<br>
+<br>
+Vegetarian: Yes <br>
+Gluteen Free: Yes <br>
+Produce: Yes <br>
+
+</td>
+
+<td align="center" valign="center">
+<img src="https://www.thespruceeats.com/thmb/7LUqtG3w_tjwJSSFmEzz-nTgPQY=/1257x943/smart/filters:no_upscale()/183850518-58ad79723df78c345b84af53.jpg" height="200" style="position:relative; left: 0px; top: 5px" width="220"  alt="description here" />
+<br />
+<br>
+Beer<br>
+<br>
+Vegetarian: Yes<br>
+Gluten Free: No<br>
+Produce: No<br>
+</td>
+</tr>
+
+</table>
 </div>
 
 <div id="Cart" class="tabcontent">
-  <h3>Cart</h3><br>
-  <p>Here is your cart.</p><br>
+  <h3>CHECKOUT</h3><br>
+  <p>Items in the cart.</p><br>
   <div id="displayCart"></div>
+	<br>
 </div>
 
 <script src="scripts/groceries.js"></script>
@@ -62,7 +203,7 @@
 
 <body2>
 <div class="container2">
-	<span class="text2">Website Designed By: Jay Patel</span>
+	<span class="text2">Website Designed By: Jay Patel </span>
 </div>
 
 </body2>
