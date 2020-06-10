@@ -1,0 +1,310 @@
+<!-- This file contains many elements adapted from the online tutoral -->
+<!-- on Bootstrap 4 as found here: https://www.w3schools.com/bootstrap4/default.asp -->
+
+<!-- Images source: -->
+<!-- jule.jpg taken from https://www.freepik.com/premium-vector/cartoon-successful-hairdresser_3951066.htm -->
+<!-- Erwind.jpb https://www.kijiji.ca/v-construction-trades-jobs/winnipeg/bicycle-mechanic/1499188319 -->
+<!-- https://www.novisign.com/wp-content/uploads/2018/10/digital-signage-for-barbershops.jpg -->
+<!-- https://i1.wp.com/fashionthisday.com/wp-content/uploads/2020/01/Best-Short-Mens-Haircut_21.jpg?ssl=1 -->
+<!-- https://www.salonsuccessacademy.com/wp-content/uploads/2017/08/iStock-498468020-1024x701.jpg -->
+<!-- https://i.pinimg.com/736x/10/38/5a/10385ac2ac63b9421e52e7d79b9be001.jpg -->
+<!-- https://img.grouponcdn.com/iam/3aAvyB6a5VNyvuGj7YVfMqqo1ZPh/3a-2048x1229/v1/c700x420.jpg -->
+<!-- https://img.grouponcdn.com/deal/8D2NABnGZinxrUQpVUeRJKw7GxN/8D-2048x1229/v1/c700x420.jpg -->
+<!-- https://lh3.googleusercontent.com/proxy/g8gnDp7mcHM-X_sHbrw_aV8WyTO6LgcsvB_1uXIy4QQMmGK70q6u1qKLcN8UvT1rSjjBsSx7gzy894WP3Usxk2CHkREbS_ezw7-uscasrTLyD0jhqvWEohNE-QXF_UutOA -->
+<!-- https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=792&h=1056&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F24%2F2020%2F04%2F28%2Fhoney-bronde.jpg -->
+<!-- https://imgix.bustle.com/rehost/2016/9/13/b96e9feb-a29e-4f4f-8610-cf7f286b4f41.jpg?w=970&h=546&fit=crop&crop=faces&auto=format%2Ccompress&cs=srgb&q=70 -->
+<!-- https://www.besthealthmag.ca/wp-content/uploads/2017/04/shutterstock_405719401.jpg -->
+
+
+
+
+
+
+<DOCTYPE html>
+<html lang="en">
+
+<!-- The head should contain an appropriate title for your site -->
+<head>
+    <<title>Straight Razor</title>
+    <meta charset ="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Style sheet (CSS) and JavaScript scripts necessary to use Bootstrap -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <!-- Your own additional style sheet -->
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<body>
+
+    <!-- Medium size container, padding 3, margins 3, background dark, text is white -->
+    <!-- Should show the name of your company with an image or logo -->
+    <!-- Bootstrap has its own font for H1, H2, p, etc.  -->
+    <!-- Look in BS4 Typography https://www.w3schools.com/bootstrap4/bootstrap_typography.asp -->
+    <!-- Use your own CSS file to change those fonts if they do not correspond to your company's look -->
+    <div class="container-md p-3 my-3 border bg-dark text-white">
+        <h1>Straight Razor</h1>
+        <p>Clean cut everytime!</p>
+        <p>289 Colorado Street, San Francisco, United States</p>
+    </div>
+
+    <div class="container">
+         <h2>Welcome to Straight Razor!</h2>
+         <p>Straight Razor is tailored to your needs! Come experience a fresh cut at, 289 Colorado Street, San Francisco, United States! Also check out the services that we have to offer as well as some of our professional staff that will take care of you!</p>
+         <img class="mx-auto d-block" src="https://www.novisign.com/wp-content/uploads/2018/10/digital-signage-for-barbershops.jpg" style="width:50%"/> <br>
+
+     </div><br>
+     <br>
+
+
+    <!-- Bootstrap has different types of tables https://www.w3schools.com/bootstrap4/bootstrap_tables.asp -->
+    <!-- Might be (or not) useful to show some information to the user -->
+    <div class="container">
+        <h2>Service Offered</h2>
+        <p>Here is the list of services offered by Striahgt Razor</p>
+        <table class="table table-bordered table-dark table-hover">
+          <thead class="thead-dark">
+            <tr>
+                <th>Price</th>
+                <th>Service</th>
+                <th>Description</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>$17.99</td>
+                <td>Adult Haircut</td>
+                <td>Looking for a quick haircut? This is the one for you.</td>
+            </tr>
+            <tr>
+                <td>$12.00</td>
+                <td>Kidscuts</td>
+                <td>Help your little one stay looking great. For kids 12 and under</td>
+            </tr>
+            <tr>
+                <td>$28.00</td>
+                <td>Cut & Shampoo</td>
+                <td>This cut includes a shampoo service with some of our facorite professional products.</td>
+            </tr>
+            <tr>
+                <td>$40.00</td>
+                <td>Special Services</td>
+                <td>Blow Outs: Enjoy a relaxing shampoo and a smooth blow out to de-frizz, create body and shine.</td>
+            </tr>
+            <tr>
+                <td>$68.00</td>
+                <td>All-Over Color</td>
+                <td>Permanent: Receive a professional hair color service performed by one our experts.</td>
+            </tr>
+            <tr>
+                <td>$68.00</td>
+                <td>Highlights</td>
+                <td>Full: Servie creates an entire color change with highlights and lowlights.</td>
+            </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+
+    <!-- Bootstrap has components for alerts: https://www.w3schools.com/bootstrap4/bootstrap_alerts.asp  -->
+    <!-- These can be useful for making sure someone reads something before continuing -->
+    <div class="container">
+        <h2>Important Notice</h2>
+        <p>We have something important to say</p>
+        <div class="alert alert-danger alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>HOURS MAY VARY DUE TO COVID-19</strong>
+        </div>
+    </div>
+
+    <div class="container">
+       <!-- <div class="container-md p-3 my-3 border bg-warning text-white"> -->
+           <h2>Book an Appointment with us</h2>
+           <p>Save time, book an appointment right away with us!</p>
+       <!-- </div> -->
+       <div id="accordion">
+           <div class="card">
+               <div class="card-header card bg-dark">
+                   <a class="card-link" data-toggle="collapse" href="#collapseService">Choose a service</a>
+               </div>
+               <div id="collapseService" class="collapse show" data-parent="#accordion">
+                   <div class="card-body">
+                       <p>Here is our list of services</p>
+                       <label><input type="radio" name = "Radio" value="simplicity"> $17.99 - Adult Haircut</label><br>
+                       <label><input type="radio" name = "Radio" value="Color Scheme">$12.00 - Kids Haircutr</label><br>
+                       <label><input type="radio" name = "Radio" value="Efficiency">$28.00 - Cut & Shampoo</label><br>
+                       <label><input type="radio" name = "Radio" value="Security">$40.00 - Speical Service</label><br>
+                       <label><input type="radio" name = "Radio" value="Security">$68.00 - All-Over Color</label><br>
+                       <label><input type="radio" name = "Radio" value="Security">$68.00 - Highlights</label>
+                   </div>
+               </div>
+           <div class="card">
+               <div class="card-header card bg-dark">
+                   <a class="collapsed card-link" data-toggle="collapse" href="#collapseDate">Choose a date</a>
+               </div>
+               <div id="collapseDate" class="collapse" data-parent="#accordion">
+                   <div class="card-body">
+                       <p>What date?</p>
+                       <!-- Bootstrap has various input components. Some examples are given here: -->
+                       <!-- Component shown here: https://v4-alpha.getbootstrap.com/components/forms/#textual-inputs -->
+                       <div class="form-group row">
+                           <label for="dateTimeInput" class="col-2 col-form-label">Date and time</label>
+                           <div class="col-10">
+                               <input class="form-control" type="datetime-local" value="06/10/2020 1:00 PM " id="dateTimeInput">
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <div class="card">
+               <div class="card-header card bg-dark">
+                   <a class="collapsed card-link" data-toggle="collapse" href="#collapseClientInfo">Your info</a>
+               </div>
+               <div id="collapseClientInfo" class="collapse" data-parent="#accordion">
+                   <div class="card-body">
+                       <p>Provide your information so we can contact you</p>
+                       <!-- <p>Form to enter name, email, phone</p> -->
+                       <label for = "email">Please enter your email address below:</label><br>
+                       <input type="text" id="email" name="a1"><br><br>
+                       <button type="button" class="btn btn-primary">Book Appointment</button>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div><br>
+
+    <!-- You'll certainly need buttons at some point in your site -->
+    <!-- https://www.w3schools.com/bootstrap4/bootstrap_buttons.asp -->
+    <!-- Remember how we talked about choosing a hue and changing the saturation for active/inactive -->
+    <!-- This idea is already part of the components in Bootstrap -->
+    <div class="container">
+      <h2>Photo Gallery</h2>
+      <p>Check out our styles!</p>
+      <div class="card-columns">
+        <div class="card bg-dark" style="width:320px">
+            <img class="card-img-top" src="https://i1.wp.com/fashionthisday.com/wp-content/uploads/2020/01/Best-Short-Mens-Haircut_21.jpg?ssl=1" alt="Card image" width = "200px" height = "250px">
+            <div class="card-body">
+                <!-- <h4 class="card-title">Tune Up Service</h4> -->
+                <p class="card-text">Adult Haircut</p>
+            </div>
+        </div>
+        <div class="card bg-dark" style="width:320px">
+            <img class="card-img-top" src="https://i.pinimg.com/736x/10/38/5a/10385ac2ac63b9421e52e7d79b9be001.jpg" alt="Card image" width = "200px" height = "250px">
+            <div class="card-body">
+                <!-- <h4 class="card-title">Tune Up Service</h4> -->
+                <p class="card-text">Kids Haircut</p>
+            </div>
+        </div>
+        <div class="card bg-dark" style="width:320px">
+            <img class="card-img-top" src="https://img.grouponcdn.com/iam/3aAvyB6a5VNyvuGj7YVfMqqo1ZPh/3a-2048x1229/v1/c700x420.jpg" alt="Card image" width = "250px" height = "250px">
+            <div class="card-body">
+                <!-- <h4 class="card-title">Tune Up Service</h4> -->
+                <p class="card-text">Cut & Shampoo</p>
+            </div>
+        </div>
+        <div class="card bg-dark" style="width:320px">
+            <img class="card-img-top" src="https://img.grouponcdn.com/deal/8D2NABnGZinxrUQpVUeRJKw7GxN/8D-2048x1229/v1/c700x420.jpg" alt="Card image" width = "200px" height = "250px">
+            <div class="card-body">
+                <!-- <h4 class="card-title">Tune Up Service</h4> -->
+                <p class="card-text">Blowout</p>
+            </div>
+        </div>
+
+        <div class="card bg-dark " style="width:330px">
+            <img class="card-img-top" src="https://lh3.googleusercontent.com/proxy/g8gnDp7mcHM-X_sHbrw_aV8WyTO6LgcsvB_1uXIy4QQMmGK70q6u1qKLcN8UvT1rSjjBsSx7gzy894WP3Usxk2CHkREbS_ezw7-uscasrTLyD0jhqvWEohNE-QXF_UutOA" alt="Card image" width = "200px" height = "250px">
+            <div class="card-body">
+                <!-- <h4 class="card-title">Tune Up Service</h4> -->
+                <p class="card-text">All-Over Color</p>
+            </div>
+        </div>
+
+        <div class="card bg-dark" style="width:330px">
+            <img class="card-img-top" src="https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=792&h=1056&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F24%2F2020%2F04%2F28%2Fhoney-bronde.jpg" alt="Card image" width = "200px" height = "250px">
+            <div class="card-body">
+                <!-- <h4 class="card-title">Tune Up Service</h4> -->
+                <p class="card-text">Highlights</p>
+            </div>
+        </div>
+      </div>
+
+    </div><br>
+    <br>
+    <br>
+
+
+    <!-- Including a modal https://www.w3schools.com/bootstrap4/bootstrap_modal.asp -->
+    <!-- Modals are useful for additional information or questions -->
+    <!-- Here the modal is used for a little survey -->
+    <!-- Presenting the staff with cards: https://www.w3schools.com/bootstrap4/bootstrap_cards.asp -->
+    <!-- Card columns allows multiple cards next to each other -->
+    <!-- The first card's button doesn't go anywhere, it could be a modal -->
+    <!-- My second card limits the information seen and uses collapsible to show more -->
+    <div class="container p-3">
+      <h2>Meet Our Hair Stylists</h2>
+      <div class="card-columns">
+          <!-- <div class="card bg-warning" style="width:200px">
+              <img class="card-img-top" src="images/Jule.jpg" alt="Card image" style="width:100%">
+              <div class="card-body">
+                  <h4 class="card-title">James</h4>
+                  <p class="card-text">James has been working at West Coast Bike Shop for over 10 years. With such exeprience, he has proven to be one of the best mechanics in Vancouver!</p>
+                  <a href="#" class="btn btn-primary">See Profile</a>
+              </div>
+          </div> -->
+          <div class="card bg-dark" style="width:210px">
+              <img class="card-img-top" src="https://www.besthealthmag.ca/wp-content/uploads/2017/04/shutterstock_405719401.jpg" alt="Card image" style="width:100%">
+              <div class="card-body">
+                  <h4 class="card-title">Felix</h4>
+                  <p class="card-text">Mr. Clean</p>
+                  <!-- collapsible part -->
+                  <a href="#James" class="btn btn-primary" data-toggle="collapse">See Profile</a>
+                  <div id="James" class="collapse p-3">
+                      <p>Felix has been styling hair since he was 15 years old! He now leads the shop with his craft!</p>
+                  </div>
+              </div>
+          </div>
+          <div class="card bg-dark" style="width:230px">
+              <img class="card-img-top" src="https://www.salonsuccessacademy.com/wp-content/uploads/2017/08/iStock-498468020-1024x701.jpg" alt="Card image" style="width:100%">
+              <div class="card-body">
+                  <h4 class="card-title">Sky</h4>
+                  <p class="card-text">The Star</p>
+                  <!-- collapsible part -->
+                  <a href="#profile" class="btn btn-primary" data-toggle="collapse">See Profile</a>
+                  <div id="profile" class="collapse p-3">
+                      <p>Sky is one of the best hair stylest in San Francisco. She has styled many famous actors and actresses hair.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="card bg-dark" style="width:270px">
+              <img class="card-img-top" src="https://imgix.bustle.com/rehost/2016/9/13/b96e9feb-a29e-4f4f-8610-cf7f286b4f41.jpg?w=970&h=546&fit=crop&crop=faces&auto=format%2Ccompress&cs=srgb&q=70" alt="Card image" style="width:100px height: 200px">
+              <div class="card-body">
+                  <h4 class="card-title">Matt</h4>
+                  <p class="card-text">Chosen One</p>
+                  <!-- collapsible part -->
+                  <a href="#Levi" class="btn btn-primary" data-toggle="collapse">See Profile</a>
+                  <div id="Levi" class="collapse p-3">
+                      <p>Matt is the founder of the shop and has been around for years and puts his best effort all the time!</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+    <!-- A different approach would be to make the whole staff information collapsible -->
+    <!-- Here a block button (taking the full width) opens/closes the collapsible -->
+    <!-- Here a single card is used, but card columns could be used -->
+
+
+    <!-- Collapsible with multiple items - accordion -->
+    <!-- https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp -->
+    <!-- As we want to do a vertical navigation better suited for mobile design, an accordion pattern -->
+    <!-- could work well.  You can use other patterns too.  This is just an example. -->
+
+
+</body>
+</html>

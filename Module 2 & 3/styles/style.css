@@ -1,0 +1,166 @@
+/* This style sheet is taken from  https://www.w3schools.com/howto/howto_js_tabs.asp> */
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid: white;
+  background-color: #f1f1f1;
+}
+
+
+.container2{
+  text-align: center;
+
+}
+
+.container2 span{
+  color: white;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+}
+
+.text2{
+  color: white;
+  font-size: 20px;
+  transform:translate(50px,190px);
+  font-weight: 900;
+  left-spacing: 8px;
+  margin-bottom: 20px;
+  animation: text 1s;
+
+}
+
+.dropbtn {
+  background-color: #C71585;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.tablinks{
+ background-color: #C71585;
+ color: white;
+ padding: 16px;
+ font-size: 16px;
+ border: none;
+ text-align: center;
+ width: 100%;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #white;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #281139;}
+
+.Category{
+  text-align: center;
+
+}
+.pheader{
+  font-size: 30px;
+  font-weight: 900;
+
+}
+
+
+/* Style the buttons that are used to open the tab content */
+/*.tab button {
+  background-color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}*/
+
+/* Change background color of buttons on hover */
+/*.tab button:hover {
+  background-color: pink;
+}*/
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #pink;
+}
+
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 2px solid pink;
+  border-top: none;
+  color: white;
+  text-align: center;
+}
+
+
+
+*{
+  padding 0;
+  margin:0;
+  font-family: sans-serif;
+}
+
+.container{
+  text-align: center;
+
+}
+
+.container span{
+  color: white;
+  text-transform: uppercase;
+  display: block;
+}
+
+.text1{
+  color: white;
+  font-size: 60px;
+  font-weight: 900;
+  left-spacing: 8px;
+  margin-bottom: 20px;
+  animation: text 3s 1;
+
+}
+
+@keyframes text{
+  0%{
+    color: grey;
+    margin-bottom: -20px;
+  }
+  30%{
+    letter-spacing: 25px;
+    margin-bottom: -20px;
+
+}
