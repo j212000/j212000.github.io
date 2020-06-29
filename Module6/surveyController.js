@@ -20,7 +20,7 @@ function writeData(info, fileName){
 // to match with the file names
 // I assume we always just add 1 to a single item
 function combineCounts(name, value){
-    // console.log(value);
+    console.log(value);
     info = readData(name);
      // will be useful for text entry, since the item typed in might not be in the list
     var found = 0;
@@ -48,8 +48,11 @@ module.exports = function(app){
         var city = readData("city");
         var story = readData("story");
         var mood = readData("mood");
+
         res.render('showResults', {results: [color, fruit, animal, city, story, mood]});
         console.log([color, fruit, animal, city, story, mood]);
+
+
     });
 
     // when a user goes to localhost:3000/niceSurvey
@@ -62,7 +65,6 @@ module.exports = function(app){
     // the action.js code will POST, and what is sent in the POST
     // will be recuperated here, parsed and used to update the data files
     app.post('/niceSurvey', urlencodedParser, function(req, res){
-        console.log(req.body);
         var json = req.body;
         for (var key in json){
             console.log(key + ": " + json[key]);
@@ -72,6 +74,7 @@ module.exports = function(app){
                     combineCounts(key, json[key][item]);
                 }
             }
+
             else {
                 combineCounts(key, json[key]);
             }
